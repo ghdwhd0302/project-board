@@ -219,3 +219,7 @@ gradle-app.setting
 # Java heap dump
 *.hprof
 
+### Query dsl
+src/main/generated
+
+memo.txt
