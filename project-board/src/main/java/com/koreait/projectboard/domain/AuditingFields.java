@@ -18,7 +18,7 @@ import java.time.LocalDateTime;
 @ToString
 @EntityListeners(AuditingEntityListener.class)
 @MappedSuperclass
-public class AuditingFields {
+public abstract class AuditingFields {
     @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)           // 날씨 파씽 하기 쉬움
     @CreatedDate
     @Column(nullable = false) private LocalDateTime createdAt;    // 생성일지
