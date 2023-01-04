@@ -25,6 +25,9 @@ spring:
   data.rest:
       base-path: /api
       detection-strategy: annotated   # 어노테이션을 쓴 것들만 접근 가능
+  thymeleaf3.decoupled-logic: true
 
 server:
   port: 8888
+
+
